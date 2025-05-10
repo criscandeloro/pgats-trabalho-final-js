@@ -1,0 +1,24 @@
+{
+  "name": "pgats-trabalho-final",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/criscandeloro/pgats-trabalho-final-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/criscandeloro/pgats-trabalho-final-js/issues"
+  },
+  "homepage": "https://github.com/criscandeloro/pgats-trabalho-final-js#readme",
+  "description": "",
+  "devDependencies": {
+    "mocha": "^11.2.2"
+  }
+}
