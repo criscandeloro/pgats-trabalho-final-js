@@ -7,7 +7,6 @@ A tag deve ter:
   O nome em letras maiúsculas
   A raça com a primeira letra maiúscula
   Peso
-
 */
 
 function geradorDeTagsDeIdentificacao(nome) {
@@ -23,20 +22,14 @@ function geradorDeTagsDeIdentificacao(nome) {
         peso: peso,
         raca: racaFirsletter
     }]
-
-    console.log(nameUpperCase)
-
-    return nameUpperCase
-/*
-    const dogThorTag = {
-        nome: dogThor.nome.toUpperCase(),
-        raca: dogThor.raca.slice(0, 1).toUpperCase() + dogThor.raca.slice(1).toLowerCase(),
-        peso: dogThor.peso
-    }
-
-console.table(dogThorTag)*/
-// console.log(`Nome: ${ dogThor.nome.toUpperCase() } - Raça ${ dogThor.raca.slice(0, 1).toUpperCase() + dogThor.raca.slice(1).toLowerCase() } - Peso: ${ dogThor.peso }`)
+    
+   // console.table(animal)
+    console.table(animal[0].nome)
 }
+
+geradorDeTagsDeIdentificacao('Pantera')
+ 
+
 
 /**
  
