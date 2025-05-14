@@ -23,15 +23,12 @@ function geradorDeTagsDeIdentificacao(nome) {
         raca: racaFirsletter
     }]
     
-   // console.table(animal)
-    console.table(animal[0].nome)
+   console.table(animal)
+   return animal[0].nome
 }
 
-geradorDeTagsDeIdentificacao('Pantera')
- 
 
-
-/**
+ /**
  
 Validador de idade mínima para adoção
 
@@ -147,10 +144,12 @@ function decidirTipoDeAtividadePorPorte(porte) {
 }
 
 
+
 async function buscarDadoAsync() {
-    const codes = [80, 105, 112, 111, 99, 97]; // códigos Unicode de 'Pipoca'
-    return String.fromCharCode(...codes);
+    const codes = ['P', 'i', 'p', 'o', 'c', 'a']; // códigos Unicode de 'Pipoca'
+    return codes.join('')
 }
+
 
 export {
     geradorDeTagsDeIdentificacao,
